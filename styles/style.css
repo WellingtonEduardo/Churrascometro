@@ -47,8 +47,9 @@ body {
       text-align: center;
       position: fixed;
       right: 0;
-      overflow: auto;
-
+      overflow-y: scroll;
+      overflow-x: hidden;
+ 
 }
 
 
@@ -119,6 +120,6 @@ display: flex;
 /* background-color: aqua; */
 align-items: center;
 justify-content: space-between;
-width: 250px;
+width: 260px;
 padding: 5px;
 }
