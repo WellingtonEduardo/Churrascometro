@@ -1,7 +1,4 @@
 
-
-
-
 let adultoBoi = 0.350;
 let adultoPorco = 0.200;
 let adultoFrango = 0.250;
@@ -16,8 +13,7 @@ let criancaLing = 0.150;
 
 let botao = document.getElementsByTagName("button")[0];
 botao.addEventListener("click", calculo)
-botao.addEventListener("mouseover", mudarCor)
-botao.addEventListener("mouseout", voltarCor)
+
 
 
 
@@ -65,12 +61,12 @@ function calculo() {
 
 
   let novo = document.getElementById("novo");
-  novo.innerHTML = `<div id='boi'> <img src='./imagens/boi.svg' alt='carne de boi' width='30px'></div><p>${calculoCarneBoi.toFixed(3)} kg de carne de boi</p> <br>`
-  novo.innerHTML += `<div id='porco'> <img src='./imagens/porco.png' alt='carne de porco' width='30px'></div><p>${calculoCarnePorco.toFixed(3)} kg de carne de porco</p> <br>`
-  novo.innerHTML += `<div id='frango'> <img src='./imagens/frango.png' alt='carne de frango' width='30px'></div><p>${calculoCarneFrango.toFixed(3)} kg de carne de frango</p> <br>`
-  novo.innerHTML += `<div id='lingui'> <img src='./imagens/linguiça.png' alt='linguiça' width='30px'></div><p>${calculoCarneLingui.toFixed(3)} kg de linguiça</p> <br>`
-  novo.innerHTML += `<div id='cerveja'> <img src='./imagens/cerveja.svg' alt='cerveja' width='30px'></div><p>${calculoCerveja.toFixed(0)} latas cerveja </p> <br>`
-  novo.innerHTML += `<div id='refri'> <img src='./imagens/refri.svg' alt='refri' width='30px'></div><p>${calculoBebidas.toFixed(1)} litros de refrigerante</p>`
+  novo.innerHTML = `<div id='boi'> <img src='./imagens/boi.svg' alt='carne de boi' width='30px'><p>${calculoCarneBoi.toFixed(3)} kg de carne de boi</p> </div>`
+  novo.innerHTML += `<div id='porco'> <img src='./imagens/porco.png' alt='carne de porco' width='30px'><p>${calculoCarnePorco.toFixed(3)} kg de carne de porco</p></div> `
+  novo.innerHTML += `<div id='frango'> <img src='./imagens/frango.png' alt='carne de frango' width='30px'><p>${calculoCarneFrango.toFixed(3)} kg de carne de frango</p></div> `
+  novo.innerHTML += `<div id='lingui'> <img src='./imagens/linguiça.png' alt='linguiça' width='30px'><p>${calculoCarneLingui.toFixed(3)} kg de linguiça</p></div> `
+  novo.innerHTML += `<div id='cerveja'> <img src='./imagens/cerveja.svg' alt='cerveja' width='30px'><p>${calculoCerveja.toFixed(0)} latas cerveja </p></div> `
+  novo.innerHTML += `<div id='refri'> <img src='./imagens/refri.svg' alt='refri' width='30px'><p>${calculoBebidas.toFixed(1)} litros de refrigerante</p></div>`
 }
 
 
