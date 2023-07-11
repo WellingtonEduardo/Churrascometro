@@ -53,13 +53,13 @@ body {
 
 
 .inputs {
-      width: 100%;
+      width: 80%;
       margin-bottom: 20px;
       padding: 5px;
       text-align: center;
       font-weight: bold;
       font-size: 18px;
-      border: 2px solid #D57A35;
+      border: 1px solid #D57A35;
       background-color: transparent;
       color: #D57A35;
 
@@ -92,10 +92,10 @@ button {
       margin: auto;
       margin-top: 10px;
       margin-bottom: 15px;
-      padding: 15px;
+      padding: 10px;
       font-weight: bold;
       font-size: 18px;
-      border-radius: 30%;
+      border-radius: 20px;
       color: black;
       border: none;
       background-color: #D57A35;
@@ -131,7 +131,7 @@ button:hover {
 
 p {
       text-align: left;
-      padding: 10px;
+      padding: 12px;
 
       color: #D57A35;
 }
